@@ -1,47 +1,46 @@
-Recipe Ideas App
-Description
-This is a single-page web application that allows users to search for recipe ideas based on a single ingredient. The application fetches data from the public TheMealDB API and displays a grid of matching recipes. Users can click on any recipe to view a modal with detailed instructions and a list of ingredients.
+# Recipe Ideas App
 
-Features
-Search for recipes by a primary ingredient.
+### Project Description
 
-Display a list of recipe cards with images.
+This is a web application that allows users to find recipe ideas based on a single ingredient. It was built as part of a take-home challenge. The application fetches data from a public API, TheMealDB, and displays a list of recipes. Users can click on a recipe to view detailed instructions and ingredients within a modal.
 
-View a detailed recipe in a modal, with instructions formatted into a numbered list.
+### Features
 
-Responsive design that works on both desktop and mobile devices.
+-   **Search Functionality:** Find recipes by entering a single ingredient.
+-   **Dynamic Display:** The application dynamically renders recipe cards based on the search results.
+-   **Interactive Modal:** A modal window displays detailed information for each recipe, including the title, image, ingredients, and step-by-step instructions.
+-   **Responsive Design:** The layout is designed to work well on both desktop and mobile devices.
 
-How to Run the Project
-To get a local copy up and running, follow these simple steps.
+### Technologies Used
 
-Prerequisites
-You will need to have Node.js and npm installed on your machine.
+-   **Framework:** React
+-   **Styling:** Plain CSS
+-   **API:** TheMealDB API
+-   **Deployment:** The project is deployed using [Your chosen platform, e.g., CodeSandbox, StackBlitz, or Vercel].
 
-Installation
-Clone the repository:
+### Local Installation and Setup
 
-git clone https://github.com/excelgufran/Recipe-ideas.git
+To run this project on your local machine, follow these steps:
 
-Navigate to the project directory:
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/excelgufran/Recipe-ideas.git](https://github.com/excelgufran/Recipe-ideas.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Recipe-ideas
+    ```
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Start the development server:**
+    ```bash
+    npm start
+    ```
 
-cd Recipe-ideas
+The application will be available at `http://localhost:3000`.
 
-Install the required dependencies:
+### Notes
 
-npm install
-
-Start the development server:
-
-npm start
-
-The application will be available in your browser at http://localhost:3000.
-
-Technologies Used
-React: A JavaScript library for building user interfaces.
-
-CSS: For styling the application.
-
-TheMealDB API: The public API used to fetch recipe data.
-
-Author
-Gufran Khan
+This project was developed with a focus on core functionality, state management using React Hooks, and a clean, user-friendly interface. The instructions are programmatically formatted into a numbered list for better readability.
